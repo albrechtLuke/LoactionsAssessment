@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	overflow-x: hidden;
+}
+.title h1 {
+	position: relative;
+	z-index: 999;
+	margin: 2% 0 0 0;
+	padding: 0;
+	margin-left: 7%;       
+	text-align: left;
+	margin-top: 2%; 
+	background-size: cover;
+	color: #fff;
+	width: auto;
+  	overflow: hidden;
+  	white-space: pre;
+  	letter-spacing: 0;
+  	line-height: 1.2;
+  	font-weight: bold;
+  	font-family: ".SFNSDisplay-Bold", "SFProDisplay-Bold", "SFUIDisplay-Bold", ".SFUIDisplay-Bold", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", sans-serif;
+  	font-size: 10vmin;
+}
+
+.title h2 {
+	position: relative;
+	z-index: 999;
+	margin: 0 0 2% 0;
+	margin-left: 7.5%;       
+	text-align: left; 
+	background-size: cover;
+	color: #fff;
+	width: auto;
+	overflow: visible;
+  	white-space: pre;
+  	letter-spacing: inherit;
+  	line-height: 1.2;
+  	font-weight: 300;
+  	font-family: ".SFNSDisplay-Light", "SFProDisplay-Light", "SFUIDisplay-Light", ".SFUIDisplay-Light", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", sans-serif;
+  	font-size: 3vmin;
+}
+
+
+.image {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	width: auto;
+  	height: auto; 
+	
+	max-width: 100%;
+	align-items: center;
+	border-radius: 2vmin;
+}
+
+.mainimage img,
+.verticalThirds1 img,
+.verticalThirds2 img,
+.verticalThirds3 img {
+	border-radius: 2vmin;
+	max-height: 100%;
+	overflow: hidden;
+}
+
+.horizontalHalf1 img,
+.horizontalHalf2 img {
+	border-radius: 2vmin;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.mainimage {
+	margin-left: 6%;
+	width: 52%;
+	height: 70.5%;
+	
+}
+.mapformatting {
+	width: 40%;
+	height: 70.5%;
+	
+}
+.verticalThirds1 {
+	margin-top: 6%;
+	margin-left: 6%;
+	width: 26%;
+	height: 85%;
+}
+.verticalThirds2 {
+	margin-top: 6%;
+	margin-left: 5%;
+	width: 26%;
+	height: 85%;
+}
+.verticalThirds3 {
+	margin-top: 6%;
+	float: right;
+	margin-right: 6%;
+	width: 26%;
+	height: 85%;
+}
+.horizontalHalf1 {
+	margin-top: 6%;
+	margin-left: 6%;
+	width: 40%;
+	height: 36%;
+}
+.horizontalHalf2 {
+	margin-top: 6%;
+	float: right;
+	margin-right: 6%;
+	width: 40%;
+	height: 36%;
+}

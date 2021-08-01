@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+
+[id^=modal] {
+    display: none;
+    background: rgba( 0, 0, 0, 0.30 );
+    
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 2vmin;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 3em;
+    min-width: 5em;
+    max-width: 50%;
+    padding: 2vmin;
+}
+
+
+input[type=checkbox] {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+#modal0:target {
+    display: block;
+}
+
+
+#modal0:target {
+    display: block;
+}
+
+#modal1:target {
+    display: block;
+}
+
+#modal2:target {
+    display: block;
+}
+
+#modal3:target {
+    display: block;
+}
+
+#modal4:target {
+    display: block;
+}
+
+#modal5:target {
+    display: block;
+}
+
+#modal6:target {
+    display: block;
+}
+
+#modal7:target {
+    display: block;
+}
+
+#modal8:target {
+    display: block;
+}
+
+#modal9:target {
+    display: block;
+}
+
+#modal10:target {
+    display: block;
+}
+
+#modal11:target {
+    display: block;
+}
+
+
+#modal12:target {
+    display: block;
+}
+
+#modal13:target {
+    display: block;
+}
+
+#modal14:target {
+    display: block;
+}
+
+#modal15:target {
+    display: block;
+}
+
+#modal16:target {
+    display: block;
+}
+
+#modal17:target {
+    display: block;
+}
+
+#modal18:target {
+    display: block;
+}
+
+#modal19:target {
+    display: block;
+}
+
+#modal20:target {
+    display: block;
+}
+
+#modal21:target {
+    display: block;
+}
+
+#modal22:target {
+    display: block;
+}
+
+#modal23:target {
+    display: block;
+}
+
+#modal24:target {
+    display: block;
+}
+
+#modal25:target {
+    display: block;
+}
+
+#modal26:target {
+    display: block;
+}
+
+#modal27:target {
+    display: block;
+}
+
+#modal28:target {
+    display: block;
+}
+
+#modal29:target {
+    display: block;
+}
+
+#modal30:target {
+    display: block;
+}
+
+#modal31:target {
+    display: block;
+}
+
+#modal32:target {
+    display: block;
+}
+
+#modal33:target {
+    display: block;
+}
+
+#modal34:target {
+    display: block;
+}
+
+#modal35:target {
+    display: block;
+}
+
+#modal36:target {
+    display: block;
+}
+
+#modal37:target {
+    display: block;
+}
+
+#modal38:target {
+    display: block;
+}
+
+#modal39:target {
+    display: block;
+}
+
+#modal40:target {
+    display: block;
+}
+
+#modal41:target {
+    display: block;
+}
+
+#modal42:target {
+    display: block;
+}
+
+#modal43:target {
+    display: block;
+}
+
+#modal44:target {
+    display: block;
+}
+
+#modal45:target {
+    display: block;
+}
+
+#modal46:target {
+    display: block;
+}
+
+#modal47:target {
+    display: block;
+}
+
+#modal48:target {
+    display: block;
+}
+
+#modal49:target {
+    display: block;
+}
+
+#modal50:target {
+    display: block;
+}
+
+#modal51:target {
+    display: block;
+}
+
+#modal52:target {
+    display: block;
+}
+
+#modal53:target {
+    display: block;
+}
+
+#modal54:target {
+    display: block;
+}
+
+#modal55:target {
+    display: block;
+}
+
+#modal56:target {
+    display: block;
+}
+
+#modal57:target {
+    display: block;
+}
+
+#modal58:target {
+    display: block;
+}
+
+#modal59:target {
+    display: block;
+}
+
+#modal60:target {
+    display: block;
+}
+
+#modal61:target {
+    display: block;
+}
+
+#modal62:target {
+    display: block;
+}
+
+#modal63:target {
+    display: block;
+}
+
+#modal64:target {
+    display: block;
+}
+
+#modal65:target {
+    display: block;
+}
+
+#modal66:target {
+    display: block;
+}
+
+[id^=modal] .close {
+    float: right;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modalText {
+    overflow: hidden;
+    color: white;
+    font-family: ".SFNSDisplay", "SFProDisplay-Regular", "SFUIDisplay-Regular", ".SFUIDisplay", "-apple-system", "BlinkMacSystemFont", sans-serif;
+    font-size: 4vmin;
+    letter-spacing: inherit;
+    width: max-content;
+    margin: 3vmin;
+}

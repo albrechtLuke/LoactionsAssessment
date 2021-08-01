@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#navbar {
+	background-color: transparent; /* Black background color */
+	position: fixed; /* Make it stick/fixed */
+	top: 0; /* Stay on top */
+	width: 100%; /* Full width */
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+	/* Style the navbar links */
+	#navbar a {
+		margin-left: 3vmin;
+		margin-top: 3vmin;
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 0;
+		text-decoration: none;
+	}
+
+		#navbar a:hover {
+			background-color: rgba( 255, 255, 255, 0.00 );
+			color: black;
+		}

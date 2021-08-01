@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.frame1 {
+  	width: 100%;
+  	height: 100%;
+  	overflow: hidden;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	border-radius: 0 0 2vmin 2vmin;
+	position: relative;
+}
+
+.mediumVerticalBox{
+	border-radius: 2vmin;
+	position: relative;
+	display: inline-flex; 
+	overflow: hidden;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	max-width: 100%;
+    width: 30%;
+  	height: 90%;
+	margin-top: 3%;
+} 
+
+
+.mediumVerticalBox img{
+	max-height:100%;
+}
+
+.mediumHorizontalBox2 img:hover,
+.mediumHorizontalBox img:hover,
+.largeHorizontalBox img:hover,
+.mediumVerticalBox2 img:hover,
+.mediumVerticalBox img:hover {
+	opacity: 0.4;
+	transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+
+.largeHorizontalBox {
+	position: relative;
+	display: inline-flex;
+	overflow: inherit;
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	width: 80%;
+  	height: 100%; 
+	margin-left:10%;
+	align-items: center;
+	border-radius: 2vmin; 
+
+}
+
+.largeHorizontalBox img {
+		max-width: 100%;
+}
+
+.mediumHorizontalBox img {
+	max-height: 100%;
+	object-fit: cover;
+}
+.mediumHorizontalBox {
+	position: relative;
+	display: inline-flex;	
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	width: 30%;
+  	height: 35%; 
+	margin-left: 10%;
+	max-width: 100%;
+	align-items: center;
+	border-radius: 2vmin;
+	overflow: hidden;
+	float: left;
+}
+

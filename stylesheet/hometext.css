@@ -1,0 +1,101 @@
+.frame1text {
+	overflow: hidden;
+  	white-space: pre;
+  	color: #ffffff;
+  	letter-spacing: 0px;
+  	line-height: 1.2;
+  	font-size: 141px;
+  	font-weight: 699;
+  	font-family: ".SFNSDisplay-Bold", "SFProDisplay-Bold", "SFUIDisplay-Bold", ".SFUIDisplay-Bold", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", sans-serif;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.mediumBoxText {
+	position: absolute;
+	z-index: 999;
+	margin: 0 10;
+	left: 3vmin;       
+	text-align: left;
+	bottom: 2vmin;  
+	font-family: ".SFNSText-Bold", "SFProText-Bold", "SFUIText-Bold", ".SFUIText-Bold", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+	font-size: 3vmin;
+	font-weight: 699;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+}
+
+.mediumBoxSubtext {
+	position: absolute;
+	z-index: 999;
+	margin: 0 10;
+	left: 3vmin;       
+	text-align: left;
+	bottom: 2.5vmin; 
+	font-family: ".SFNSText-Light", "SFProText-Light", "SFUIText-Light", ".SFUIText-Light", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+  	font-size: 1vmin;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+}
+
+.largeBoxText {
+	position: absolute;
+	z-index: 999;
+	margin: 0 10;
+	left: 3vmin;       
+	text-align: left;
+	bottom: 8vmin;
+	font-family: ".SFNSText-Bold", "SFProText-Bold", "SFUIText-Bold", ".SFUIText-Bold", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+	font-size: 3vmin;
+	font-weight: 699;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+}
+
+.largeBoxSubtext {
+	position: absolute;
+	z-index: 999;
+	margin: 0 10;
+	left: 3vmin;       
+	text-align: left;
+	bottom: 8vmin;
+	font-family: ".SFNSText-Light", "SFProText-Light", "SFUIText-Light", ".SFUIText-Light", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+  	font-size: 1vmin;
+	background-size: cover;
+	color: #fff;
+	width:  100%;
+}
+
+.mediumHorizonalBoxText {
+	position: absolute;
+	z-index: 999;
+	margin: 0 10;
+	left: 3vmin;      
+	text-align: left;
+	bottom: 1vmin;
+	font-family: ".SFNSText-Bold", "SFProText-Bold", "SFUIText-Bold", ".SFUIText-Bold", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+	font-size: 3vmin;
+	font-weight: 699;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+}
+
+.mediumHorizontalBoxSubtext {
+	position: absolute;
+	z-index: 999;
+	margin: 0 10;
+	left: 3vmin;      
+	text-align: left;
+	bottom:1.5vmin; 
+	font-family: ".SFNSText-Light", "SFProText-Light", "SFUIText-Light", ".SFUIText-Light", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+  	font-size: 16px;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+}
