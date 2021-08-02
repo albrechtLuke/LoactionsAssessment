@@ -298,6 +298,10 @@ input[type=checkbox] {
     display: block;
 }
 
+#modalAbout:target {
+    display: block;
+}
+
 [id^=modal] .close {
     float: right;
     color: #FFF;
@@ -321,4 +325,154 @@ input[type=checkbox] {
     letter-spacing: inherit;
     width: max-content;
     margin: 3vmin;
+}
+#modal2 child:hover,
+#modal3 child:hover,
+#modal4 child:hover,
+#modal5 child:hover,
+#modal6 child:hover,
+#modal7 child:hover,
+#modal8 child:hover,
+#modal9 child:hover,
+#modal10 child:hover,
+#modal11 child:hover,
+#modal12 child:hover,
+#modal13 child:hover,
+#modal14 child:hover,
+#modal15 child:hover,
+#modal16 child:hover,
+#modal17 child:hover,
+#modal18 child:hover,
+#modal19 child:hover,
+#modal20 child:hover,
+#modal21 child:hover,
+#modal22 child:hover,
+#modal23 child:hover,
+#modal24 child:hover,
+#modal25 child:hover,
+#modal26 child:hover,
+#modal27 child:hover,
+#modal28 child:hover,
+#modal29 child:hover,
+#modal30 child:hover,
+#modal31 child:hover,
+#modal32 child:hover,
+#modal33 child:hover,
+#modal34 child:hover,
+#modal35 child:hover,
+#modal36 child:hover,
+#modal37 child:hover,
+#modal38 child:hover,
+#modal39 child:hover,
+#modal40 child:hover,
+#modal41 child:hover,
+#modal42 child:hover,
+#modal43 child:hover,
+#modal44 child:hover,
+#modal45 child:hover,
+#modal46 child:hover,
+#modal47 child:hover,
+#modal48 child:hover,
+#modal49 child:hover,
+#modal50 child:hover,
+#modal51 child:hover,
+#modal52 child:hover,
+#modal53 child:hover,
+#modal54 child:hover,
+#modal55 child:hover,
+#modal56 child:hover,
+#modal57 child:hover,
+#modal58 child:hover,
+#modal59 child:hover,
+#modal60 child:hover,
+#modal61 child:hover,
+#modal62 child:hover,
+#modal63 child:hover,
+#modal64 child:hover,
+#modal65 child:hover,
+#modal66 child:hover {
+    opacity: 0.4;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+#modal2 child:not(:hover),
+#modal3 child:not(:hover),
+#modal4 child:not(:hover),
+#modal5 child:not(:hover),
+#modal6 child:not(:hover),
+#modal7 child:not(:hover),
+#modal8 child:not(:hover),
+#modal9 child:not(:hover),
+#modal10 child:not(:hover),
+#modal11 child:not(:hover),
+#modal12 child:not(:hover),
+#modal13 child:not(:hover),
+#modal14 child:not(:hover),
+#modal15 child:not(:hover),
+#modal16 child:not(:hover),
+#modal17 child:not(:hover),
+#modal18 child:not(:hover),
+#modal19 child:not(:hover),
+#modal20 child:not(:hover),
+#modal21 child:not(:hover),
+#modal22 child:not(:hover),
+#modal23 child:not(:hover),
+#modal24 child:not(:hover),
+#modal25 child:not(:hover),
+#modal26 child:not(:hover),
+#modal27 child:not(:hover),
+#modal28 child:not(:hover),
+#modal29 child:not(:hover),
+#modal30 child:not(:hover),
+#modal31 child:not(:hover),
+#modal32 child:not(:hover),
+#modal33 child:not(:hover),
+#modal34 child:not(:hover),
+#modal35 child:not(:hover),
+#modal36 child:not(:hover),
+#modal37 child:not(:hover),
+#modal38 child:not(:hover),
+#modal39 child:not(:hover),
+#modal40 child:not(:hover),
+#modal41 child:not(:hover),
+#modal42 child:not(:hover),
+#modal43 child:not(:hover),
+#modal44 child:not(:hover),
+#modal45 child:not(:hover),
+#modal46 child:not(:hover),
+#modal47 child:not(:hover),
+#modal48 child:not(:hover),
+#modal49 child:not(:hover),
+#modal50 child:not(:hover),
+#modal51 child:not(:hover),
+#modal52 child:not(:hover),
+#modal53 child:not(:hover),
+#modal54 child:not(:hover),
+#modal55 child:not(:hover),
+#modal56 child:not(:hover),
+#modal57 child:not(:hover),
+#modal58 child:not(:hover),
+#modal59 child:not(:hover),
+#modal60 child:not(:hover),
+#modal61 child:not(:hover),
+#modal62 child:not(:hover),
+#modal63 child:not(:hover),
+#modal64 child:not(:hover),
+#modal65 child:not(:hover),
+#modal66 child:not(:hover) {
+    animation-name: lighten;
+    animation-duration: 1s;
+}
+
+@keyframes lighten {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

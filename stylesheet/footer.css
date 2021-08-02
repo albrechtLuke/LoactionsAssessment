@@ -85,3 +85,20 @@ h2 {
     font-family: ".SFNSDisplay-Light", "SFProDisplay-Light", "SFUIDisplay-Light", ".SFUIDisplay-Light", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", sans-serif;
     font-size: 3vmin;
 }
+
+.aboutText {
+    overflow: hidden;
+    white-space: pre;
+    color: white;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-size: 3vmin
+    font-weight: 699;
+    font-family: ".SFNSDisplay-Bold", "SFProDisplay-Bold", "SFUIDisplay-Bold", ".SFUIDisplay-Bold", "SF Pro Display", "-apple-system", "BlinkMacSystemFont", sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin:5vmin;
+
+}

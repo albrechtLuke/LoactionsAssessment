@@ -117,3 +117,26 @@ body {
 	width: 40%;
 	height: 36%;
 }
+
+.image img:hover{
+	opacity: 0.4;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+.image img:not(:hover) {
+	animation-name: lighten;
+	animation-duration: 1s;
+}
+
+@keyframes lighten {
+	from {
+		opacity: 0.4;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

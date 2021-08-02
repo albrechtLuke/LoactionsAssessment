@@ -31,17 +31,6 @@
 	max-height:100%;
 }
 
-.mediumHorizontalBox2 img:hover,
-.mediumHorizontalBox img:hover,
-.largeHorizontalBox img:hover,
-.mediumVerticalBox2 img:hover,
-.mediumVerticalBox img:hover {
-	opacity: 0.4;
-	transition: opacity .2s ease-out;
-  -moz-transition: opacity .2s ease-out;
-  -webkit-transition: opacity .2s ease-out;
-  -o-transition: opacity .2s ease-out;
-}
 
 
 .largeHorizontalBox {
@@ -83,3 +72,33 @@
 	float: left;
 }
 
+	.mediumHorizontalBox2 img:hover,
+	.mediumHorizontalBox img:hover,
+	.largeHorizontalBox img:hover,
+	.mediumVerticalBox2 img:hover,
+	.mediumVerticalBox img:hover {
+		opacity: 0.4;
+		transition: opacity .2s ease-out;
+		-moz-transition: opacity .2s ease-out;
+		-webkit-transition: opacity .2s ease-out;
+		-o-transition: opacity .2s ease-out;
+	}
+
+	.mediumHorizontalBox2 img:not(:hover),
+	.mediumHorizontalBox img:not(:hover),
+	.largeHorizontalBox img:not(:hover),
+	.mediumVerticalBox2 img:not(:hover),
+	.mediumVerticalBox img:not(:hover) {
+		animation-name: lighten;
+		animation-duration: 1s;
+	}
+
+@keyframes lighten {
+	from {
+		opacity: 0.4;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
