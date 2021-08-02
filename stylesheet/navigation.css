@@ -2,14 +2,14 @@
 /* CSS Document */
 
 #navbar {
-	background-color: transparent; /* Black background color */
-	position: fixed; /* Make it stick/fixed */
-	top: 0; /* Stay on top */
-	width: 100%; /* Full width */
-	transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	background-color: transparent; 
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+	transition: top 0.3s; 
 }
 
-	/* Style the navbar links */
+	
 	#navbar a {
 		margin-left: 3vmin;
 		margin-top: 3vmin;

@@ -24,7 +24,7 @@ input[type=checkbox] {
     clip: rect(0 0 0 0);
 }
 
-#modal0:target {
+#modal0:target { /*modal part 2. on target show*/
     display: block;
 }
 
