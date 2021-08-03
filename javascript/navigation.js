@@ -3,7 +3,7 @@ window.onscroll = function() {
 	
   var currentScrollPos = window.pageYOffset;
 	
-	if (prevScrollpos > currentScrollPos) {
+	if (prevScrollpos > currentScrollPos) { //Nav Part 1. the scroll position
     document.getElementById("navbar").style.top = "0";
 	} 
 	
